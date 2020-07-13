@@ -4,6 +4,8 @@ html, body{
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #282829;
+    color: white;
 }
 
 .header{
@@ -11,7 +13,9 @@ html, body{
     padding: 0px;
     width: 100vw;
     height: 3rem;
-    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto 5rem 5rem;
+    background-color: #525252;
 }
 
 .header h1 {
