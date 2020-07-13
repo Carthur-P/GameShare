@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from '../css/styles.module.css';
 
 export default function App(props) {
   return (
     <div>
-      <h1>Hello World</h1>
+      <div className={styles.header, styles.test}>
+        <h1>GameShare</h1>
+        <p>Cart</p>
+        <p>Sign In</p>
+      </div>
     </div>
   );
 }
